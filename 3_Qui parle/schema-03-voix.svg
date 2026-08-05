@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">De la réserve de voix au comportement d'assistant</title>
+  <desc id="desc">Schéma conceptuel du modèle de sélection du personnage : le préentraînement permet plusieurs personas, le post-entraînement modifie leur poids relatif, puis le contexte influence le comportement observé.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#536270" stroke-width="1.8"/></marker><style>.title{font:700 34px system-ui,sans-serif;fill:#243447}.sub{font:400 18px system-ui,sans-serif;fill:#536270}.label{font:700 20px system-ui,sans-serif;fill:#243447}.small{font:400 16px system-ui,sans-serif;fill:#536270}.arrow{stroke:#536270;stroke-width:3;fill:none;marker-end:url(#arrow)}</style></defs>
+  <rect width="1200" height="675" fill="#F8F7F2"/>
+  <text x="64" y="70" class="title">Une voix est stabilisée parmi plusieurs possibles</text>
+  <text x="64" y="104" class="sub">Le modèle de sélection du personnage est une hypothèse prédictive, pas une localisation anatomique</text>
+
+  <rect x="64" y="190" width="220" height="250" rx="20" fill="#E8F1F0" stroke="#2E7D75" stroke-width="2"/>
+  <text x="174" y="230" text-anchor="middle" class="label">Préentraînement</text>
+  <text x="174" y="266" text-anchor="middle" class="small">prédire des textes</text>
+  <g fill="#FFFFFF" stroke="#2E7D75"><circle cx="120" cy="335" r="28"/><circle cx="174" cy="315" r="28"/><circle cx="228" cy="335" r="28"/></g>
+  <text x="174" y="394" text-anchor="middle" class="small">auteurs · personnages</text><text x="174" y="418" text-anchor="middle" class="small">rôles · styles</text>
+
+  <path d="M284 315 H355" class="arrow"/>
+  <rect x="360" y="170" width="250" height="290" rx="20" fill="#EEEAF8" stroke="#5A4FB3" stroke-width="2"/>
+  <text x="485" y="210" text-anchor="middle" class="label">Distribution de personas</text>
+  <rect x="402" y="254" width="166" height="35" rx="8" fill="#FFFFFF" stroke="#5A4FB3"/><rect x="420" y="307" width="130" height="35" rx="8" fill="#FFFFFF" stroke="#5A4FB3"/><rect x="443" y="360" width="84" height="35" rx="8" fill="#FFFFFF" stroke="#5A4FB3"/>
+  <text x="485" y="277" text-anchor="middle" class="small">plusieurs continuations</text><text x="485" y="330" text-anchor="middle" class="small">plusieurs rôles</text><text x="485" y="383" text-anchor="middle" class="small">poids variables</text>
+
+  <path d="M610 315 H680" class="arrow"/>
+  <rect x="685" y="190" width="210" height="250" rx="20" fill="#F7EBD8" stroke="#C98B2E" stroke-width="2"/>
+  <text x="790" y="230" text-anchor="middle" class="label">Post-entraînement</text>
+  <text x="790" y="270" text-anchor="middle" class="small">les exemples favorisent</text><text x="790" y="294" text-anchor="middle" class="small">certaines conduites</text>
+  <path d="M735 352 H845" stroke="#C98B2E" stroke-width="10"/><circle cx="820" cy="352" r="18" fill="#FFFFFF" stroke="#C98B2E" stroke-width="3"/>
+  <text x="790" y="408" text-anchor="middle" class="small">stabilisation relative</text>
+
+  <path d="M895 315 H965" class="arrow"/>
+  <rect x="970" y="190" width="166" height="250" rx="20" fill="#E7EDF4" stroke="#42658A" stroke-width="2"/>
+  <text x="1053" y="230" text-anchor="middle" class="label">Assistant</text>
+  <text x="1053" y="278" text-anchor="middle" class="small">voix apparente</text><text x="1053" y="302" text-anchor="middle" class="small">refus · ton</text><text x="1053" y="326" text-anchor="middle" class="small">« nous »</text>
+  <rect x="994" y="360" width="118" height="48" rx="10" fill="#FFFFFF" stroke="#42658A"/><text x="1053" y="390" text-anchor="middle" class="small">+ contexte</text>
+
+  <rect x="64" y="510" width="1072" height="100" rx="16" fill="#FFFFFF" stroke="#D3D0C8"/>
+  <text x="90" y="548" class="label">Limite de l'image</text>
+  <text x="90" y="580" class="small">Les boîtes ordonnent une interprétation. Elles ne prouvent ni une personne intérieure, ni une volonté subjective, ni un emplacement unique.</text>
+</svg>

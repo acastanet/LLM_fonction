@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">L'alignement relie une cible, des preuves et une gouvernance</title>
+  <desc id="desc">Trois fonctions interdépendantes entourent un système d'intelligence artificielle en usage : fixer la cible légitime, vérifier le comportement et maintenir les conditions de contrôle.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#536270" stroke-width="1.8"/></marker><style>.title{font:700 34px system-ui,sans-serif;fill:#243447}.sub{font:400 18px system-ui,sans-serif;fill:#536270}.label{font:700 20px system-ui,sans-serif;fill:#243447}.small{font:400 16px system-ui,sans-serif;fill:#536270}.arrow{stroke:#536270;stroke-width:3;fill:none;marker-end:url(#arrow)}</style></defs>
+  <rect width="1200" height="675" fill="#F8F7F2"/>
+  <text x="64" y="70" class="title">Aligner : fixer, vérifier, maintenir</text>
+  <text x="64" y="104" class="sub">Une relation sociotechnique, pas une vertu intérieure du modèle</text>
+
+  <rect x="64" y="185" width="290" height="210" rx="20" fill="#EEEAF8" stroke="#5A4FB3" stroke-width="2"/>
+  <text x="209" y="230" text-anchor="middle" class="label">1 · Cible normative</text>
+  <text x="209" y="274" text-anchor="middle" class="small">finalité autorisée</text><text x="209" y="302" text-anchor="middle" class="small">droits et limites</text><text x="209" y="330" text-anchor="middle" class="small">acteurs légitimes</text><text x="209" y="358" text-anchor="middle" class="small">recours</text>
+
+  <path d="M354 290 H414" class="arrow"/>
+  <rect x="420" y="185" width="290" height="210" rx="20" fill="#E8F1F0" stroke="#2E7D75" stroke-width="2"/>
+  <text x="565" y="230" text-anchor="middle" class="label">2 · Preuves techniques</text>
+  <text x="565" y="274" text-anchor="middle" class="small">tests et scénarios</text><text x="565" y="302" text-anchor="middle" class="small">erreurs et contournements</text><text x="565" y="330" text-anchor="middle" class="small">seuils proportionnés</text><text x="565" y="358" text-anchor="middle" class="small">comportement observé</text>
+
+  <path d="M710 290 H770" class="arrow"/>
+  <rect x="776" y="185" width="360" height="210" rx="20" fill="#F7EBD8" stroke="#C98B2E" stroke-width="2"/>
+  <text x="956" y="230" text-anchor="middle" class="label">3 · Maintien systémique</text>
+  <text x="956" y="274" text-anchor="middle" class="small">rôles et supervision</text><text x="956" y="302" text-anchor="middle" class="small">journalisation et incidents</text><text x="956" y="330" text-anchor="middle" class="small">correction ou arrêt</text><text x="956" y="358" text-anchor="middle" class="small">réévaluation continue</text>
+
+  <path d="M956 395 V470 H600" class="arrow"/>
+  <rect x="385" y="455" width="430" height="115" rx="22" fill="#E7EDF4" stroke="#42658A" stroke-width="3"/>
+  <text x="600" y="500" text-anchor="middle" class="label">Système d'IA dans un usage déterminé</text>
+  <text x="600" y="535" text-anchor="middle" class="small">modèle · consignes · outils · données · interface · opérateurs</text>
+  <path d="M385 515 H209 V401" class="arrow"/>
+
+  <text x="64" y="628" class="small">Réel : les responsabilités et les contrôles portent sur le système en contexte. Simplifié : les trois fonctions se chevauchent dans la pratique.</text>
+</svg>
