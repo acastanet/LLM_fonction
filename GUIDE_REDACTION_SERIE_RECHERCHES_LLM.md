@@ -2,10 +2,12 @@
 
 ## Guide d’articulation et de finalisation de la série
 
-**Version :** 1.1 — 27 septembre 2026  
+**Version :** 1.2 — 27 septembre 2026<br>
 **Point de départ :** les cinq textes déjà rédigés et les intentions précisées dans la conversation.  
 **État du travail :** environ 75 % de la rédaction est réalisée, selon l’estimation de l’auteur.  
 **Travail restant :** trouver la bonne articulation, préciser les intentions de lecture et effectuer des ajustements à la marge.
+
+**Mise à jour 1.2 :** ajout d’un repère éditorial sur le *reward hacking* pour la partie 4, avec une note orale correspondante dans le support de présentation.
 
 Ce guide corrige la version 1.0, qui proposait une transformation trop importante des manuscrits. Les textes existants constituent la base de publication. Leurs titres, leurs exemples, leur voix et l’essentiel de leur développement sont conservés. La nouvelle orientation précise leur lecture commune : présenter des recherches qui permettent de regarder les LLM autrement.
 
@@ -161,14 +163,16 @@ Le texte possède déjà sa progression. Ses relances en gras peuvent continuer 
 | L’assistant obéit. Est-ce suffisant ? | Poser le problème à partir d’un usage familier. | Conserver l’ouverture. |
 | Aligné avec quoi et avec qui ? | Faire apparaître la pluralité des finalités. | Garder les acteurs et les distinctions. |
 | Une relation, pas une vertu de la machine | Préciser le sens de l’alignement. | Relire la définition pour sa fluidité. |
-| Alignement direct et alignement social | Donner un outil pour penser les effets. | Mettre en valeur les recherches déjà mobilisées. |
+| Alignement direct et alignement social | Donner un outil pour penser les effets. | Mettre en valeur les recherches déjà mobilisées et illustrer l’écart entre objectif visé et récompense mesurée par le *reward hacking*. |
 | Le système, pas seulement le modèle | Situer les consignes, l’interface, les outils et les responsabilités. | Utiliser éventuellement AnSu comme illustration courte. |
 | Fixer, vérifier, maintenir | Relier l’intention aux observations. | Conserver la logique de supervision. |
 | Ce que nous ne pouvons pas déléguer | Conclure le parcours. | Ajouter la généralisation dans le bilan de la série et actualiser les renvois. |
 
 **Place des recherches.** Le rapport, les travaux sur les valeurs et les distinctions entre objectifs directs et sociaux sont déjà présents. La finalisation doit montrer leur apport au raisonnement. Les références institutionnelles accompagnent cette réflexion sans devenir un catalogue.
 
-**Point d’attention.** Cet article reste l’aboutissement déjà rédigé. Il n’est pas reconstruit autour d’une expérience de désalignement déplacée depuis le précédent.
+**Ajout ciblé — *reward hacking*.** Présenter brièvement le cas où l’optimisation d’une récompense imparfaite s’écarte de l’objectif qu’elle devait représenter. Le situer comme un problème de spécification et de vérification technique, sans le confondre avec l’ensemble de l’alignement social. « Tricher » ou *game-playing* peut servir d’image, à condition de ne pas prêter à l’agent une intention humaine. Pour le manuscrit, s’appuyer sur Skalse et al., [*Defining and Characterizing Reward Hacking*](https://arxiv.org/abs/2209.13085) ; les [exemples de Google DeepMind](https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/) peuvent nourrir la présentation. La note orale est déjà ajoutée à la [diapo 8 du plan de présentation](<Présentation/nouveau_plan_8_diapos_coherent.md>). Le [README du dossier](<4_Alignement/README.md>) précise le rôle des matériaux et la réserve sur les sources.
+
+**Point d’attention.** Cet article reste l’aboutissement déjà rédigé. Il n’est pas reconstruit autour d’une expérience de désalignement déplacée depuis le précédent ; le *reward hacking* reste un exemple bref au service de la distinction entre la cible et sa mesure.
 
 ## 4. Les raccords : le principal travail rédactionnel restant
 

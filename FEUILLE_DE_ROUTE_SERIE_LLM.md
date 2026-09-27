@@ -1,7 +1,7 @@
 # Feuille de route — Série « Une phrase dans la machine »
 
-**Version :** 1.2  
-**Date :** 4 août 2026  
+**Version :** 1.3<br>
+**Date :** 27 septembre 2026<br>
 **Objet :** transformer les quatre brouillons existants en une série cohérente, progressive et publiable sur le fonctionnement des LLM.
 
 **Modifications de la version 1.1 :** la série remplace la collection de fiches existante
@@ -17,6 +17,11 @@ qui montre que le gabarit du §10 est déjà la formule du guide, fixe le regist
 règle les huit curseurs article par article ; chaque chantier détaillé (§5 à §8) porte ses
 propres réglages ; le vocabulaire du §10 absorbe les termes chargés de valeur et les
 registres interdits ; le §15 reçoit un test de la voix et un test des connecteurs.
+
+**Modifications de la version 1.3 :** ajout du README de la partie 4, d’une consigne éditoriale
+sur le *reward hacking* dans le guide de rédaction et d’une action de suivi dédiée au manuscrit
+et à ses sources (§8 et §11). La note orale sur ce sujet est déjà inscrite dans le plan de
+présentation de huit diapositives.
 
 ---
 
@@ -538,7 +543,7 @@ troublante.
 | 1 | **L’assistant obéit. Est-ce suffisant ?** | 180-240 | Cas de l’élève, contradiction entre demande et finalité. | 1, 2 |
 | 2 | **Aligné avec quoi et avec qui ?** | 250-320 | Utilisateur, enseignant, institution, droit, personnes concernées. | 3 |
 | 3 | **Une relation, pas une vertu de la machine** | 220-280 | Définition simple, graduelle et contextuelle. | 3, 6 |
-| 4 | **Alignement direct et alignement social** | 300-380 | Accomplir la tâche ; préserver les droits et les finalités qui la limitent. | 4 |
+| 4 | **Alignement direct et alignement social** | 300-380 | Accomplir la tâche ; préserver les droits et les finalités qui la limitent. Illustrer l’écart entre objectif visé et récompense mesurée par un exemple bref de *reward hacking*. | 4 |
 | 5 | **Le système, pas seulement le modèle** | 260-340 | Modèle, consignes, outils, données, opérateurs et conditions de déploiement. **Porte l’objection :** « il suffirait d’aligner le modèle ». | 4, 5 |
 | 6 | **Fixer, vérifier, maintenir** | 300-380 | Normatif, technique et systémique sous forme d’une chaîne de responsabilité. | 6, 7 |
 | 7 | **Ce que nous ne pouvons pas déléguer** | 280-340 | Conclusion de l’article et de la série. **Reçoit le passage déplacé de la partie 2** : « notre prise » et « lundi matin devant une classe ». | 8, 9 |
@@ -572,6 +577,14 @@ contexte est le même « nous » que la partie 3 avait laissé sans réponse.
 - il faut distinguer alignement direct et alignement social ;
 - le normatif fixe la cible, le technique l’éprouve, le systémique maintient les conditions de contrôle ;
 - l’alignement ne se confond ni avec l’obéissance, ni avec la conformité documentaire, ni avec le risque nul.
+
+### Mise à jour du 27 septembre 2026 — *reward hacking*
+
+- [x] Créer [le README du dossier d’alignement](<4_Alignement/README.md>) pour décrire les matériaux, le statut de la note de fond et les références utiles.
+- [x] Ajouter au [guide de rédaction](GUIDE_REDACTION_SERIE_RECHERCHES_LLM.md) la consigne de traiter le *reward hacking* comme un exemple limité de décalage entre la finalité et sa mesure.
+- [x] Ajouter la note orale au tableau de la diapo 8 du [plan de présentation](<Présentation/nouveau_plan_8_diapos_coherent.md>).
+- [ ] Intégrer au manuscrit un exemple bref, sourcé, qui explique qu’un agent peut optimiser une récompense proxy imparfaite sans réaliser l’objectif visé ; employer « tricher » comme métaphore et ne pas attribuer d’intention humaine.
+- [x] Vérifier les références : Skalse et al. définissent le décalage entre récompense proxy et récompense réelle ; Google DeepMind fournit des exemples de contournement de spécification. Ne pas faire porter cette affirmation sur *Cooperative Inverse Reinforcement Learning* seul.
 
 ### Ce qui doit disparaître du corps principal
 
@@ -864,6 +877,7 @@ Effectuer cette passe après la réécriture structurelle, pas avant.
 - [ ] distinction modèle/système ;
 - [ ] références juridiques et institutionnelles à jour ;
 - [ ] chaque source soutient précisément la proposition à laquelle elle est attachée ;
+- [ ] le *reward hacking* est décrit comme l’optimisation d’une récompense proxy imparfaite, avec une source adaptée et sans anthropomorphisme ;
 - [ ] **les huit URL de `definition explication.md` ouvertes une à une**, paramètre
   `?utm_source=chatgpt.com` retiré : RIA, NIST AI RMF (deux pages), ISO/IEC 42001,
   Convention-cadre du Conseil de l’Europe, International AI Safety Report 2026, NBER,
@@ -985,7 +999,7 @@ Les durées sont indicatives. L’ordre et les dépendances sont plus importants
 | 6 | 2 h | Raccourcir et réordonner la partie 1 | Version structurelle P1 |
 | 7 | 1 h 30 | Nuancer et raccourcir la partie 3 | Version série P3 |
 | 8 | 2 h | Vérification technique des parties 1 et 2 | Corrections documentées |
-| 9 | 2 h | Vérification documentaire des parties 3 et 4 | Sources vérifiées et datées |
+| 9 | 2 h | Vérification documentaire des parties 3 et 4, dont la source du *reward hacking* | Sources vérifiées et datées |
 | 10 | 2 h | Réviser le schéma des couches, créer celui de la partie 4, harmoniser les visuels | Quatre visuels cohérents |
 | 11 | 1 h 30 | Harmoniser transitions, vocabulaire, chapeaux et conclusions | Série continue |
 | 12 | 2 h | Relecture à voix haute, bêta-lecture et dernière coupe | Quatre articles prêts |
