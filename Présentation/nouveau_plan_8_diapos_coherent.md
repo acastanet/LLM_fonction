@@ -332,6 +332,10 @@ Au centre :
 - preuves
 - gouvernance
 
+### Note à dire au tableau — le *reward hacking*
+
+Mettre côte à côte l’objectif visé, la récompense mesurée et le comportement appris. Un animal — ou un agent IA — peut obtenir la « friandise » sans réaliser la finalité que cette récompense devait représenter, en contournant la règle ou en trompant l’évaluateur. Ce décalage est appelé *reward hacking* ou *game-playing*. Pour l’agent IA, « tricher » est une image pédagogique : le mécanisme consiste à optimiser un signal imparfait, pas à lui prêter une intention humaine de tromper. Voir [Skalse et al., *Defining and Characterizing Reward Hacking*](https://arxiv.org/abs/2209.13085) et [les exemples de specification gaming de Google DeepMind](https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/).
+
 ### Transition finale
 
 La présentation part d’un token et se termine par une responsabilité : les probabilités expliquent comment une sortie apparaît, mais elles ne décident pas ce que cette sortie doit servir.
